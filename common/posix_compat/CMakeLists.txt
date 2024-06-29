@@ -1,9 +1,0 @@
-idf_component_register(
-    SRCS
-        "clock_esp.c"
-        "semaphore.c"
-    INCLUDE_DIRS
-        "."
-    REQUIRES
-        esp_timer
-)
