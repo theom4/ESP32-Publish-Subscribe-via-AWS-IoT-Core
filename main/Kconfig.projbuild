@@ -1,0 +1,19 @@
+menu "AWS_CREDENTIALS"
+    config AWS_ENDPOINT 
+        string  "enter AWS endpoint"
+        default "endpoint"
+    config THING_NAME 
+        string "the thing name used"
+        default "thing"
+    config USER_NAME 
+        string "the username"
+        default "username"
+
+endmenu
+
+menu "WIFI Credentials"
+    config SSID
+        string "enter SSID"
+    config PASSWORD
+        string "enter password"
+endmenu
