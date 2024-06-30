@@ -1,5 +1,5 @@
 # ESP32-Publish-Subscribe-via-AWS-IoT-Core
-The ESP32 is firstly provisioned via softAP and then connected to the AWS MQTT Broker and stores the BME280 sensor 
+The ESP32 is first provisioned via softAP and then connected to the AWS MQTT Broker and stores the BME280 sensor 
 data in the Timestream DB
 
 
