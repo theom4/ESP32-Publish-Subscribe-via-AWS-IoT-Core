@@ -79,7 +79,7 @@ static void print_qr_code(void)
         {"ver", "v1"},
         {"name", "PROV_ESP32"},
         {"pop", "abcd1234"},
-        {"transport", "softAP"}
+        {"transport", "softap"}
     };
     esp_qrcode_config_t qr_cfg = ESP_QRCODE_CONFIG_DEFAULT();
     esp_qrcode_generate( &qr_cfg,qr_wifi.dump().c_str());
